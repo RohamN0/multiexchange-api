@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+
+# FastAPI / Uvicorn
+instance/
+*.log
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.so
+
+# Test results
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Env examples
+!.env.example
